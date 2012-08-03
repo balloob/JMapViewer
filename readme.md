@@ -3,14 +3,15 @@ This is a fork of JMapViewer of OpenStreetMap with support added for offline map
 
 Original JMapViewer can be found here: http://wiki.openstreetmap.org/wiki/JMapViewer
 
-Useful for systems that do not 
+Useful for systems that are not connected to the internet.
 
 This code is licensed under GPL.
 
 ## How to use
 You can use the jMapViewer as you would normally do.
-The difference with the original is the addition of the class OfflineOsmTileSource. 
-It requires 3 arguments: the directory where your files are stored, the minimum zoom level that you have stored and the maximum zoom level.
+The difference with the original code base is the addition of the class OfflineOsmTileSource in the package org.openstreetmap.gui.jmapviewer.tilesources.
+
+It requires 3 arguments: the directory where your files are stored, the minimum zoom level that you have stored and the maximum zoom level that you have stored.
 
 Use it like this in Java:
 
