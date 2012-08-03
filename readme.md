@@ -17,6 +17,13 @@ Use it like this in Java:
     JMapViewer map = new JMapViewer();
     map.setTileSource(new OfflineOsmTileSource("file:///Users/paulus/Downloads/jTileDownloader/tiles/",1,9));
 
+## Limitations
+I hacked this together really really quickly. It is usuable but not for production releases.
+
+Some rough edges:
+ - given path is not validated if it exists
+ - you are unable to set boundary latitude/longitude of the tiles that you have downloaded so it expects to be able to find tiles for the whole world offline.
+
 ## How to download the tiles
 To download the Open Streetmap tiles to your computer you can use [jTileDownloader](http://wiki.openstreetmap.org/wiki/JTileDownloader).
 
