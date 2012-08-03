@@ -12,7 +12,8 @@ You can use the jMapViewer as you would normally do.
 The difference with the original is the addition of the class OfflineOsmTileSource. 
 It requires 3 arguments: the directory where your files are stored, the minimum zoom level that you have stored and the maximum zoom level.
 
-Use it like this in Java
+Use it like this in Java:
+
     JMapViewer map = new JMapViewer();
     map.setTileSource(new OfflineOsmTileSource("file:///Users/paulus/Downloads/jTileDownloader/tiles/",1,9));
 
